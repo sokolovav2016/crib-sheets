@@ -216,29 +216,28 @@ node -v, node --version # показывает установленную вер
 ### npm
 
 ``` bash
-npm -h # показывает список всех доступных команд пакетного менеджера (npm)
-npm config ls -l  # Выведет список всех возможных настроек
+npm -h            # показывает список всех доступных команд пакетного менеджера (npm)
+npm config ls -l  # выведет список всех возможных настроек
 
 npm init # создает package.json, который определяет настройки проекта, зависимости, скрипты, название и прочее
 
 npm -v, npm --version # показывает установленную версию npm
-npm update npm -g # обновляет версию npm
+npm update npm -g     # обновляет версию npm
 
-npm list --depth=0 # показывает список установленных пакетов
+npm list --depth=0                   # показывает список установленных пакетов
 npm outdated, npm outdated --depth=0 # показывает список установленных пакетов, которые требуют обновления
-npm update --save # обновляет все пакеты npm до последней версии
+npm update --save                    # обновляет все пакеты npm до последней версии
 
-npm install, npm i # устанавливает все пакеты и зависимости перечисленные в package.json
+npm install, npm i                 # устанавливает все пакеты и зависимости перечисленные в package.json
 npm install package, npm i package # устанавливает любой пакет по его имени, если к команде добавить префикс -g пакет будет установлен глобально
+npm install --global gulp-cli      # устанавливает Gulp глобально
+npm install --save-dev gulp        # устанавливает Gulp в текущий проект (локально)
 # префикс --save - устанавливает пакеты в package.json в раздел dependencies
 # префикс --save-dev - устанавливает пакеты в package.json в раздел devDependencies
 
-npm install --global gulp-cli # устанавливает Gulp глобально
-npm install --save-dev gulp # устанавливает Gulp в текущий проект (локально)
-
-npm list package # показывает версию установленного пакета
-npm view package version # показывает последнюю версию пакета, которая существует
-npm update package # обновляет установленный пакет по имени
+npm list package          # показывает версию установленного пакета
+npm view package version  # показывает последнюю версию пакета, которая существует
+npm update package        # обновляет установленный пакет по имени
 npm install package@1.0.1 # устанавливает конкретную версию пакета
-npm uninstall package # удаляет установленный пакет по имени
+npm uninstall package     # удаляет установленный пакет по имени
 ```
