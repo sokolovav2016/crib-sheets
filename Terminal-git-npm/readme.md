@@ -1,8 +1,8 @@
 # Шпаргалка по Terminal | Git | npm
 
-*   [Terminal](https://github.com/sokolovav2016/crib-sheets/tree/master/terminal-and-git#Terminal)
-*   [Git](https://github.com/sokolovav2016/crib-sheets/tree/master/terminal-and-git#Git)
-*   [npm](https://github.com/sokolovav2016/crib-sheets/tree/master/terminal-and-git#npm)
+*   [Terminal](https://github.com/sokolovav2016/crib-sheets/tree/master/Terminal-git-npm#Terminal)
+*   [Git](https://github.com/sokolovav2016/crib-sheets/tree/master/Terminal-git-npm#Git)
+*   [npm](https://github.com/sokolovav2016/crib-sheets/tree/master/Terminal-git-npm#npm)
 
 
 ## Terminal
