@@ -1,8 +1,8 @@
-# Шпаргалка по Terminal | Git | NPM
+# Шпаргалка по Terminal | Git | npm
 
 *   [Terminal](https://github.com/sokolovav2016/crib-sheets/tree/master/terminal-and-git#Terminal)
 *   [Git](https://github.com/sokolovav2016/crib-sheets/tree/master/terminal-and-git#Git)
-*   [npm_&_Node.js](https://github.com/sokolovav2016/crib-sheets/tree/master/terminal-and-git#npm_&_Node.js)
+*   [npm](https://github.com/sokolovav2016/crib-sheets/tree/master/terminal-and-git#npm)
 
 
 ## Terminal
@@ -192,7 +192,7 @@ git pull academy master # (academy - имя удаленного репозит�
 git push origin master # (origin - имя удаленного репозитория, master - имя ветки удаленного репозитория)
 ```
 
-## npm_&_Node.js
+## npm
 
 ### Установка и настройка Node и Gulp с нуля:
 
